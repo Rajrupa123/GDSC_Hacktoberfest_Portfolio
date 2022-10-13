@@ -1,0 +1,201 @@
+*{
+    margin: 0%;
+    padding: 0;
+}
+body {
+    background-image: url(./header_img.jpg);
+    background-repeat: no-repeat;
+    background-size: 100vw 72vh;
+}
+#name h1 {
+    color: white;
+    position: relative;
+    top: 21vh;
+    text-align: center;
+}
+ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+    position: relative;
+    top: 4vh;
+}
+ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+#about p {
+    position: relative;
+    top: 73vh;
+    border: 2px solid;
+    width: 60%;
+    text-align: justify;
+    left: 22%;
+    height: 20vh;
+}
+#skills {
+    width: 100%;
+    height: 65vh;
+    background-color: #e1d9d9;
+    position: relative;
+    top: 75vh;
+}
+#indicator1,#indicator2,#indicator3,#indicator4,#indicator5,#indicator6 {
+    border: 2px solid;
+    color: #dad0d0;
+    height: 7vh;
+    width: 22%;
+    background-color: #abb2b2;
+    border-radius: 252px;
+}
+.indicator {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    position: relative;
+    top: 18vh;
+}
+#indicator5,#indicator6{
+    position: relative;
+    top: 6vh;
+}
+#skill1, #skill2, #skill3, #skill4,#skill5,#skill6 {
+    /* border: 2px solid; */
+    height: 7vh;
+    border-radius: 253px;
+    width: 73%;
+    position: relative;
+    left: 0%;
+    padding: 0%;
+    background-color: aqua;
+}
+#skill2{
+    background-color: blueviolet;
+}
+#skill3{
+    background-color: chartreuse;
+}
+#skill4{
+    background-color: coral;
+}
+#skill5{
+    background-color: cornflowerblue;
+}
+#skill6{
+    background-color: deeppink;
+}
+#skill1 p, #skill2 p, #skill3 p, #skill4 p, #skill5 p, #skill6 p {
+    color: white;
+    /* left: 2%; */
+    position: relative;
+    left: 11%;
+    font-weight: bold;
+    top: 2vh;
+}
+#eductaion {
+   /* border: 2px solid;*/
+    height: 107vh;
+    position: relative;
+    top: 78vh;
+    width: 68%;
+    left: 17%;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: relative;
+}
+.boxes{
+    border: 2px solid;
+    height: 23vh;
+    width: 23%;
+    position: relative;
+    left: 6%;
+}
+.boxes:nth-child(2n)
+{
+   
+left: 73vh;
+   
+background-color: #dad0d0;
+}
+#extra-curricular{
+   /* border: 2px solid;*/
+    height: 107vh;
+    position: relative;
+    top: 85vh;
+    width: 68%;
+    left: 17%;
+
+}
+#projects{
+    border: 2px solid;
+    height: 85vh;
+    position: relative;
+    top: 93vh;
+    
+   
+    
+}
+.project_{
+  display: flex;
+}
+.project_ img{
+    width: 20%;
+}
+#edu-head, #extra-curri-head{
+    text-align: center;
+}
+
+#divider {
+    border: 2px solid black;
+    transform: rotate(90deg);
+    position: relative;
+    top: 47vh;
+    height: 1%;
+    left: 10%;
+    width: 68%;
+    border-left: none;
+    border-bottom: none;
+    border-right: none;
+}
+footer{
+    background-color: blueviolet;
+    height: 84vh;
+    position: relative;
+    top: 82vh;
+    display: flex;
+    flex-wrap: wrap;
+}
+input {
+    display: block;
+    margin: 17%;
+    height: 7vh;
+    text-align: center;
+    width: 138%;
+    position: relative;
+    top: 8vh;
+}
+button{
+    position: relative;
+    left: -7%;
+    height: 6vh;
+    top: 48vh;
+}
+#contact{
+    text-align: center;
+    position: relative;
+    left: 45%;
+}
+.get-in-touch{
+    position: relative;
+    left: 20%;
+    width: 45%;
+    border:2px solid;
+    height: 32vh;
+    top: 12vh;
+}
