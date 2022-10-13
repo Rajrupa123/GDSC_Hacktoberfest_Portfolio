@@ -108,7 +108,7 @@ header h1 {
     position: relative;
 }
 .boxes{
-    border: 2px solid;
+    
     height: 23vh;
     width: 23%;
     position: relative;
@@ -187,12 +187,12 @@ header img {
     top: 55vh;
     left: 45%;
 }
-#college-name{
-    color: blue;
+#college-name, #program{
+    color: #1e1eae;
     font-weight: bold;
-    
-    font-size: 3vh;
+    font-size: 3.5vh;
 }
-#cgpa{
-    
+#cgpa , #month{
+    color: orange;
+    font-weight: bold;
 }
